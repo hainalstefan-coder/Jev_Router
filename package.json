@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hainalstefan-coder/Jev_Router.git"
+    "url": "git+https://github.com/hainalstefan-coder/Jev_Router.git"
   },
   "homepage": "https://github.com/hainalstefan-coder/Jev_Router#readme",
   "bugs": {
@@ -24,7 +24,7 @@
     "node": ">=22.14.0"
   },
   "bin": {
-    "jev": "./dist/cli.js"
+    "jev": "dist/cli.js"
   },
   "files": [
     "dist",

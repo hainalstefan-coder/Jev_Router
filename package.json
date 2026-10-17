@@ -1,6 +1,6 @@
 {
   "name": "jev-task-router",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Choose a coding model for each task and run it through your existing subscriptions.",
   "license": "MIT",
   "repository": {
@@ -49,5 +49,9 @@
     "@types/node": "22.19.11",
     "tsx": "4.23.15",
     "typescript": "5.9.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "koffi@3.2.1": true
   }
 }

@@ -14,10 +14,22 @@ Install the package:
 npm install --global jev-task-router
 ```
 
+If your npm version blocks dependency install scripts by default, allow Koffi's native installer:
+
+```sh
+npm install --global --allow-scripts=koffi jev-task-router
+```
+
 Or run it without a global install:
 
 ```sh
 npx --yes --package=jev-task-router jev doctor
+```
+
+For npm versions that block install scripts, use:
+
+```sh
+npm exec --yes --package=jev-task-router --allow-scripts=koffi -- jev doctor
 ```
 
 ## Configure credentials

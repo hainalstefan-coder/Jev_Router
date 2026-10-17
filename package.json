@@ -1,6 +1,6 @@
 {
   "name": "jev-task-router",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Choose a coding model for each task and run it through your existing subscriptions.",
   "license": "MIT",
   "repository": {

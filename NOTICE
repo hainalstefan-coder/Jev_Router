@@ -1,0 +1,8 @@
+Benchmark data attribution
+
+Arena leaderboard data is retrieved on demand from the LMSYS Arena leaderboard dataset:
+https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset
+The dataset is licensed under CC BY 4.0. The CLI identifies Arena as the source when benchmark data is displayed.
+
+Artificial Analysis data is optional, fetched by each user with their own API key, cached only on that user's machine, and is not included in this package. Users must follow Artificial Analysis attribution and data-use terms:
+https://artificialanalysis.ai/data-api

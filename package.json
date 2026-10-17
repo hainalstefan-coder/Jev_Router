@@ -1,0 +1,53 @@
+{
+  "name": "jev-task-router",
+  "version": "0.1.0",
+  "description": "Choose a coding model for each task and run it through your existing subscriptions.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hainalstefan-coder/Jev_Router.git"
+  },
+  "homepage": "https://github.com/hainalstefan-coder/Jev_Router#readme",
+  "bugs": {
+    "url": "https://github.com/hainalstefan-coder/Jev_Router/issues"
+  },
+  "keywords": [
+    "ai",
+    "cli",
+    "model-router",
+    "codex",
+    "copilot",
+    "jev"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "bin": {
+    "jev": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    ".env.example"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test test/*.test.ts",
+    "check": "npm test && npm run build",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "dependencies": {
+    "@ai-sdk/gateway": "4.0.116",
+    "@github/copilot-sdk": "1.0.22",
+    "ai": "7.0.143",
+    "dotenv": "17.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.11",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}
